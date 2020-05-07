@@ -1,5 +1,10 @@
 body {
-  background-color: #333;
-  color: white;
+  background-color: #223744;
+  color: #F4F4F4;
+  font-family: proxima-nova;
+}
+
+h1 {
+  font-family: Poppins;
 }
 /*# sourceMappingURL=styles.css.map */
