@@ -8,3 +8,43 @@ body{
 h1{
     font-family: $headline;
 }
+
+.logo{
+    margin: 50px;
+}
+
+//Flex
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+//Margin og padding
+
+
+//Inputs
+input[type="text"], input[type="password"]{
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    height: 40px;
+    margin: 5px 0px 15px 0px;
+}
+
+input[type="submit"]{
+    background-color: $contrast;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: $secondary-color;
+    padding: 10px 60px;
+    height: 45px;
+    margin: 5px 0px 15px 0px;
+}
