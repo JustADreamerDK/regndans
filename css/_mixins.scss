@@ -1,0 +1,13 @@
+@mixin button {
+    background-color: $contrast;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    border-radius: 10px;
+    &:hover{
+        font-weight: bold;
+        color: $secondary-color;
+    }
+  }

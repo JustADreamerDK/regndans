@@ -1,4 +1,6 @@
+@import "reset";
 @import "vars";
+@import "mixins";
 
 body{
     background-color: $primary-color;
@@ -8,12 +10,99 @@ body{
 h1{
     font-family: $headline;
 }
+a{
+    color: $secondary-color;
+    &:hover{
+        color: $contrast
+    }
+}
 
-.logo{
+.login-logo{
     margin: 50px;
 }
 
+nav{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 4%;
+    ul{
+        li{
+            margin: 0px 0px 30px 0px;
+            a{
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.logo{
+    width: 200px;
+    margin: 40px 4%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.indhold{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    .button__add{
+        @include button;
+    }
+    table{
+        width: 100%;
+        margin: 10px 0px; 
+        .table__row--blue{
+            background-color: $step-one;
+        }
+        .table__row--pink{
+            background-color: $step-two;
+        }
+        .table__row--green{
+            background-color: $step-three;
+        }
+        .table__row--yellow{
+            background-color: $step-four;
+        }
+        .table__row--red{
+            background-color: $finished-steps;
+        }
+        a{
+            color: black;
+        }
+        tr{
+            display: flex;
+            justify-content: space-between;
+            color: black;
+            &:first-child{
+                border-radius: 10px 10px 0px 0px;
+            }
+            &:last-child{
+                border-radius: 0px 0px 10px 10px;
+            }
+        }
+        td{
+            padding: 20px;
+        }
+        h4{
+            margin: 0px;
+        }
+    }
+    .table__pagination{
+        align-self: flex-end;
+        li{
+            margin: 2px;
+        }
+    }
+}
+
 //Flex
+.flex{
+    display: flex;
+}
+
 .flex-center{
     display: flex;
     justify-content: center;
@@ -23,9 +112,6 @@ h1{
     display: flex;
     flex-direction: column;
 }
-
-//Margin og padding
-
 
 //Inputs
 input[type="text"], input[type="password"]{

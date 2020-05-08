@@ -1,4 +1,19 @@
 body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
   background-color: #223744;
   color: #F4F4F4;
   font-family: proxima-nova;
@@ -8,8 +23,153 @@ h1 {
   font-family: Poppins;
 }
 
-.logo {
+a {
+  color: #F4F4F4;
+}
+
+a:hover {
+  color: #029EA7;
+}
+
+.login-logo {
   margin: 50px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 4%;
+}
+
+nav ul li {
+  margin: 0px 0px 30px 0px;
+}
+
+nav ul li a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 200px;
+  margin: 40px 4%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.indhold {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.indhold .button__add {
+  background-color: #029EA7;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 50px;
+  border-radius: 10px;
+}
+
+.indhold .button__add:hover {
+  font-weight: bold;
+  color: #F4F4F4;
+}
+
+.indhold table {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.indhold table .table__row--blue {
+  background-color: #9fc5e8;
+}
+
+.indhold table .table__row--pink {
+  background-color: #d5a6bd;
+}
+
+.indhold table .table__row--green {
+  background-color: #b6d7a8;
+}
+
+.indhold table .table__row--yellow {
+  background-color: #f9cb9c;
+}
+
+.indhold table .table__row--red {
+  background-color: #F06449;
+}
+
+.indhold table a {
+  color: black;
+}
+
+.indhold table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: black;
+}
+
+.indhold table tr:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.indhold table tr:last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.indhold table td {
+  padding: 20px;
+}
+
+.indhold table h4 {
+  margin: 0px;
+}
+
+.indhold .table__pagination {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.indhold .table__pagination li {
+  margin: 2px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .flex-center {
