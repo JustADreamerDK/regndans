@@ -121,13 +121,18 @@ nav{
     justify-content: center;
 }
 
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+
 .flex-column{
     display: flex;
     flex-direction: column;
 }
 
 //Inputs
-input[type="text"], input[type="password"]{
+input[type="text"], input[type="password"], input[type="email"]{
     background-color: $secondary-color;
     border: none;
     border-radius: 5px;
@@ -146,4 +151,9 @@ input[type="submit"]{
     padding: 10px 60px;
     height: 45px;
     margin: 5px 0px 15px 0px;
+    width: 200px;
+    &:hover{
+        cursor: pointer;
+        font-weight: bold;
+    }
 }

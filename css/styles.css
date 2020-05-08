@@ -192,6 +192,15 @@ nav ul li a {
           justify-content: center;
 }
 
+.flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
 .flex-column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,7 +211,7 @@ nav ul li a {
           flex-direction: column;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"], input[type="password"], input[type="email"] {
   background-color: #F4F4F4;
   border: none;
   border-radius: 5px;
@@ -221,5 +230,11 @@ input[type="submit"] {
   padding: 10px 60px;
   height: 45px;
   margin: 5px 0px 15px 0px;
+  width: 200px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
 /*# sourceMappingURL=styles.css.map */
