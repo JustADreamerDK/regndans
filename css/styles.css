@@ -86,7 +86,6 @@ nav ul li a {
 .indhold .button__add {
   background-color: #029EA7;
   width: 150px;
-  height: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,7 +97,6 @@ nav ul li a {
           align-items: center;
   padding: 15px 50px;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .indhold .button__add:hover {
@@ -133,8 +131,6 @@ nav ul li a {
 }
 
 .indhold table .table__row--white {
-  background-color:white;
-  border: lightblue solid 1px;
   background-color: #F4F4F4;
   border-bottom: 2px solid #029EA7;
 }
@@ -231,6 +227,26 @@ nav ul li a {
   border-radius: 0px 0px 10px 10px;
 }
 
+.indhold form .checkbox {
+  background-color: #F4F4F4;
+  color: black;
+  border-radius: 10px;
+  padding: 5px 0px 20px 10px;
+  margin-bottom: 10px;
+}
+
+.indhold form .checkbox h3 {
+  text-align: center;
+}
+
+.indhold form .checkbox input[type=checkbox] {
+  margin-right: 10px;
+}
+
+.indhold form .checkbox div {
+  margin: 5px 0px;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,17 +284,7 @@ nav ul li a {
 input[type="text"], input[type="password"], input[type="email"] {
   background-color: #F4F4F4;
   border: none;
-  border-radius: 5px;
-  font-size: 20px;
-  padding: 5px 10px;
-  height: 40px;
-  margin: 5px 0px 15px 0px;
-}
-
-input[type="text"], input[type="e-mail"] {
-  background-color: #F4F4F4;
-  border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 20px;
   padding: 5px 10px;
   height: 40px;
@@ -288,7 +294,7 @@ input[type="text"], input[type="e-mail"] {
 input[type="submit"] {
   background-color: #029EA7;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 15px;
   color: #F4F4F4;
   padding: 10px 60px;
@@ -301,27 +307,4 @@ input[type="submit"]:hover {
   cursor: pointer;
   font-weight: bold;
 }
-
-.table__row--white--cell {
-  width: 33%;
-}
-
-.enkelt_admin--add_wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.enkelt_admin--button_wrapper {
-  display: flex;
-  margin: 10px;
-}
-
-.enkelt_admin--button_wrapper a {
-  margin-left: 15px;
-}
-
-.opret_admin--opret_button {
-  justify-content: flex-end;
-}
-
 /*# sourceMappingURL=styles.css.map */

@@ -144,6 +144,24 @@ nav{
         }
         display: none;
     }
+    form{
+        .checkbox{
+            background-color: $secondary-color;
+            color: black;
+            border-radius: 10px;
+            padding: 5px 0px 20px 10px;
+            h3{
+                text-align: center;
+            }
+            input[type=checkbox]{
+                margin-right: 10px;
+            }
+            margin-bottom: 10px;
+            div{
+                margin: 5px 0px;
+            }
+        }
+    }
 }
 
 //Flex
@@ -170,7 +188,7 @@ nav{
 input[type="text"], input[type="password"], input[type="email"]{
     background-color: $secondary-color;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 20px;
     padding: 5px 10px;
     height: 40px;
@@ -180,7 +198,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 input[type="submit"]{
     background-color: $contrast;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 15px;
     color: $secondary-color;
     padding: 10px 60px;
