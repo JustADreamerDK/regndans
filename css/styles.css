@@ -85,6 +85,7 @@ nav ul li a {
 .indhold .button__add {
   background-color: #029EA7;
   width: 150px;
+  height: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,6 +97,7 @@ nav ul li a {
           align-items: center;
   padding: 15px 50px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .indhold .button__add:hover {
@@ -126,6 +128,11 @@ nav ul li a {
 
 .indhold table .table__row--red {
   background-color: #F06449;
+}
+
+.indhold table .table__row--white {
+  background-color:white;
+  border: lightblue solid 1px;
 }
 
 .indhold table a {
@@ -202,6 +209,16 @@ input[type="text"], input[type="password"] {
   margin: 5px 0px 15px 0px;
 }
 
+input[type="text"], input[type="e-mail"] {
+  background-color: #F4F4F4;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 10px;
+  height: 40px;
+  margin: 5px 0px 15px 0px;
+}
+
 input[type="submit"] {
   background-color: #029EA7;
   border: none;
@@ -212,4 +229,27 @@ input[type="submit"] {
   height: 45px;
   margin: 5px 0px 15px 0px;
 }
+
+td {
+  width: 33%;
+}
+
+.enkelt_admin--add_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enkelt_admin--button_wrapper {
+  display: flex;
+  margin: 10px;
+}
+
+.enkelt_admin--button_wrapper a {
+  margin-left: 15px;
+}
+
+.opret_admin--opret_button {
+  justify-content: flex-end;
+}
+
 /*# sourceMappingURL=styles.css.map */
