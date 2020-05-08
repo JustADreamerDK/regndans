@@ -6,6 +6,7 @@ body{
     background-color: $primary-color;
     color: $secondary-color;
     font-family: $body-text;
+    overflow-y: scroll;
 }
 h1{
     font-family: $headline;

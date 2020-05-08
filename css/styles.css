@@ -17,6 +17,7 @@ body {
   background-color: #223744;
   color: #F4F4F4;
   font-family: proxima-nova;
+  overflow-y: scroll;
 }
 
 h1 {
