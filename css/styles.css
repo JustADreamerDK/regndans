@@ -30,6 +30,7 @@ a {
 
 a:hover {
   color: #029EA7;
+  cursor: pointer;
 }
 
 .login-logo {
@@ -106,6 +107,7 @@ nav ul li a {
 .indhold table {
   width: 100%;
   margin: 10px 0px;
+  border-collapse: collapse;
 }
 
 .indhold table .table__row--blue {
@@ -128,17 +130,21 @@ nav ul li a {
   background-color: #F06449;
 }
 
+.indhold table .table__row--white {
+  background-color: #F4F4F4;
+  border-bottom: 2px solid #029EA7;
+}
+
+.indhold table .table__row--white:last-child {
+  border-bottom: 0px;
+}
+
 .indhold table a {
   color: black;
 }
 
 .indhold table tr {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: show;
   color: black;
 }
 
@@ -152,6 +158,10 @@ nav ul li a {
 
 .indhold table td {
   padding: 20px;
+}
+
+.indhold table td:last-child {
+  text-align: end;
 }
 
 .indhold table h4 {
