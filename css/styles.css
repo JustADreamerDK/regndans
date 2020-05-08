@@ -177,6 +177,56 @@ nav ul li a {
   margin: 2px;
 }
 
+.indhold .faq__button {
+  background-color: #029EA7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 10px;
+  width: 98%;
+}
+
+.indhold .faq__button:hover {
+  cursor: pointer;
+}
+
+.indhold .faq__button:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.indhold .faq__button--luk {
+  background-color: #029EA7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 10px;
+  width: 98%;
+  display: none;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.indhold .faq__button--luk:hover {
+  cursor: pointer;
+}
+
+.indhold .faq__answer {
+  background-color: #F4F4F4;
+  padding: 0px 10px;
+  width: 98%;
+  color: black;
+  display: none;
+}
+
+.indhold .faq__answer:last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
