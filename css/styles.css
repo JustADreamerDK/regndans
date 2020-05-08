@@ -252,7 +252,7 @@ input[type="submit"]:hover {
   font-weight: bold;
 }
 
-td {
+.table__row--white--cell {
   width: 33%;
 }
 
