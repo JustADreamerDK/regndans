@@ -14,7 +14,8 @@ h1{
 a{
     color: $secondary-color;
     &:hover{
-        color: $contrast
+        color: $contrast;
+        cursor: pointer;
     }
 }
 
@@ -45,6 +46,7 @@ nav{
     display: flex;
     justify-content: center;
 }
+
 .indhold{
     width: 90%;
     display: flex;
@@ -55,6 +57,7 @@ nav{
     table{
         width: 100%;
         margin: 10px 0px; 
+        border-collapse: collapse;
         .table__row--blue{
             background-color: $step-one;
         }
@@ -70,12 +73,18 @@ nav{
         .table__row--red{
             background-color: $finished-steps;
         }
+        .table__row--white{
+            background-color: $secondary-color;
+            border-bottom: 2px solid $contrast;
+            &:last-child{
+                border-bottom: 0px;
+            }
+        }
         a{
             color: black;
         }
         tr{
-            display: flex;
-            justify-content: space-between;
+            display: show;
             color: black;
             &:first-child{
                 border-radius: 10px 10px 0px 0px;
@@ -86,6 +95,9 @@ nav{
         }
         td{
             padding: 20px;
+            &:last-child{
+                text-align: end;
+            }
         }
         h4{
             margin: 0px;
@@ -109,13 +121,18 @@ nav{
     justify-content: center;
 }
 
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+
 .flex-column{
     display: flex;
     flex-direction: column;
 }
 
 //Inputs
-input[type="text"], input[type="password"]{
+input[type="text"], input[type="password"], input[type="email"]{
     background-color: $secondary-color;
     border: none;
     border-radius: 5px;
@@ -134,4 +151,9 @@ input[type="submit"]{
     padding: 10px 60px;
     height: 45px;
     margin: 5px 0px 15px 0px;
+    width: 200px;
+    &:hover{
+        cursor: pointer;
+        font-weight: bold;
+    }
 }

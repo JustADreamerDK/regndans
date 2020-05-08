@@ -30,6 +30,7 @@ a {
 
 a:hover {
   color: #029EA7;
+  cursor: pointer;
 }
 
 .login-logo {
@@ -108,6 +109,7 @@ nav ul li a {
 .indhold table {
   width: 100%;
   margin: 10px 0px;
+  border-collapse: collapse;
 }
 
 .indhold table .table__row--blue {
@@ -133,6 +135,12 @@ nav ul li a {
 .indhold table .table__row--white {
   background-color:white;
   border: lightblue solid 1px;
+  background-color: #F4F4F4;
+  border-bottom: 2px solid #029EA7;
+}
+
+.indhold table .table__row--white:last-child {
+  border-bottom: 0px;
 }
 
 .indhold table a {
@@ -140,12 +148,7 @@ nav ul li a {
 }
 
 .indhold table tr {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: show;
   color: black;
 }
 
@@ -159,6 +162,10 @@ nav ul li a {
 
 .indhold table td {
   padding: 20px;
+}
+
+.indhold table td:last-child {
+  text-align: end;
 }
 
 .indhold table h4 {
@@ -189,6 +196,15 @@ nav ul li a {
           justify-content: center;
 }
 
+.flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
 .flex-column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,7 +215,7 @@ nav ul li a {
           flex-direction: column;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"], input[type="password"], input[type="email"] {
   background-color: #F4F4F4;
   border: none;
   border-radius: 5px;
@@ -228,6 +244,12 @@ input[type="submit"] {
   padding: 10px 60px;
   height: 45px;
   margin: 5px 0px 15px 0px;
+  width: 200px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
 
 td {
