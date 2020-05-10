@@ -10,7 +10,10 @@
     <title>Regndans</title>
 </head>
 <body>
-    <img class="logo" src="../img/logo.png">
+    <div class="flex">
+        <img class="logo" src="../img/logo.png">
+        <div class="trin3 fill"></div>
+    </div>
     <div class="flex">
         <nav>
             <ul>
@@ -20,11 +23,63 @@
                 <li><a href="../Index.html">Log ud</a></li>
             </ul>
         </nav>
-        <div class="container">
+        <div class="container trin3">
             <div class="indhold">
-            
-            Skriv HTML for indhold her
-            
+                <form action="Index.html" method="GET">
+                    
+                    <div class="flex">
+                        <div class="board__input">
+                            <h3>6.1 PROBLEM</h3>
+                            <p>
+                                Problem fra punkt 4.1 flyttet hertil.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="board__input">
+                            <h3>6.2 TEKNOLOGI</h3>
+                            <p>
+                                Flyttet fra punkt 4.3 hertil.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="board__input">
+                            <h3>6.3 LØSNING</h3>
+                            <p>
+                                Beskriv løsningen på problemet i en sætning.
+                            </p>
+                            <input type="text" name="losning">
+                        </div>
+                    </div>
+                        <div class="flex">
+                            <div class="board__input">
+                                <h3>7.1 VISUALISER LØSNING</h3>
+                                <p>
+                                    Lav en simpel tegning af hvordan jeres person oplever løsningen.
+                                </p>
+                                <div class="flex">
+                                    <label for="losningfor">Før personen oplever problemet</label>
+                                    <input type="file" name="losningfor" accept="image/*">
+                                </div>
+                                <div class="flex">
+                                    <label for="losningunder">Når personen oplever problemet</label>
+                                    <input type="file" name="losningunder" accept="image/*">
+                                </div>
+                                <div class="flex">
+                                    <label for="losningefter">Efter personen har oplevet problemet</label>
+                                    <input type="file" name="losningefter" accept="image/*">
+                                </div>
+                            </div>
+                            <div class="board__input">
+                                <h1>
+                                    Hvordan gør vi lige med 8.1, 8.2, 9.1 og 9.2?
+                                </h1>
+                            </div>
+                        </div>
+                    
+                <div class="flex-end">
+                    <input type="submit" value="Næste">
+                </div>
+                </form>
             </div>
         </div>
     </div>
