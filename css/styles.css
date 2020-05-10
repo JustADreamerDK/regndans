@@ -84,18 +84,20 @@ nav ul li a {
 
 .trin2 {
   background-color: #d5a6bd;
+  color: black;
+  width: 100%;
 }
 
 .trin3 {
   background-color: #b6d7a8;
+  color: black;
+  width: 100%;
 }
 
 .trin4 {
   background-color: #f9cb9c;
-}
-
-.finish {
-  background-color: #F06449;
+  color: black;
+  width: 100%;
 }
 
 .indhold {
@@ -302,8 +304,14 @@ nav ul li a {
   border-radius: 10px;
   margin: 5px;
   padding: 10px;
-  width: 10%;
+  min-width: 10%;
   cursor: pointer;
+}
+
+.indhold .board__input textarea {
+  width: 97%;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .flex {
