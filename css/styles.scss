@@ -45,6 +45,7 @@ nav{
     width: 100%;
     display: flex;
     justify-content: center;
+    min-height: 73.5vh;
 }
 .fill{
     padding: 95px;
@@ -219,6 +220,9 @@ nav{
             padding: 10px;
             border-radius: 10px;
         }
+        .billede{
+            width: 100%;
+        }
     }
 }
 
@@ -240,6 +244,11 @@ nav{
 .flex-column{
     display: flex;
     flex-direction: column;
+}
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 //Inputs
