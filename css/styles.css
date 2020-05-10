@@ -72,6 +72,32 @@ nav ul li a {
           justify-content: center;
 }
 
+.fill {
+  padding: 95px;
+}
+
+.trin1 {
+  background-color: #9fc5e8;
+  color: black;
+  width: 100%;
+}
+
+.trin2 {
+  background-color: #d5a6bd;
+}
+
+.trin3 {
+  background-color: #b6d7a8;
+}
+
+.trin4 {
+  background-color: #f9cb9c;
+}
+
+.finish {
+  background-color: #F06449;
+}
+
 .indhold {
   width: 90%;
   display: -webkit-box;
@@ -245,6 +271,39 @@ nav ul li a {
 
 .indhold form .checkbox div {
   margin: 5px 0px;
+}
+
+.indhold .board__input {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.indhold .board__input .flex {
+  margin: 10px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.indhold .board__input .flex input[type="file"] {
+  width: 40%;
+}
+
+.indhold .board__input .card__bagside {
+  display: none;
+}
+
+.indhold .board__input .card {
+  border: 1px solid #029EA7;
+  background-color: #F4F4F4;
+  color: black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  width: 10%;
+  cursor: pointer;
 }
 
 .flex {

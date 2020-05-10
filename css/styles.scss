@@ -46,6 +46,26 @@ nav{
     display: flex;
     justify-content: center;
 }
+.fill{
+    padding: 95px;
+}
+.trin1{
+    background-color: $step-one;
+    color: black;
+    width: 100%;
+}
+.trin2{
+    background-color: $step-two;
+}
+.trin3{
+    background-color: $step-three;
+}
+.trin4{
+    background-color: $step-four;
+}
+.finish{
+    background-color: $finished-steps;
+}
 
 .indhold{
     width: 90%;
@@ -160,6 +180,32 @@ nav{
             div{
                 margin: 5px 0px;
             }
+        }
+    }
+    .board__input{
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 5px;
+        .flex{
+            margin: 10px 0px;
+            justify-content: space-between;
+            input[type="file"]{
+                width: 40%;
+            }
+        }
+        .card__bagside{
+            display: none;
+        }
+        .card{
+            border: 1px solid $contrast;
+            background-color: $secondary-color;
+            color: black;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 10px;
+            width: 10%;
+            cursor: pointer;
         }
     }
 }
