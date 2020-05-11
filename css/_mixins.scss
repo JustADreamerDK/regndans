@@ -1,6 +1,7 @@
 @mixin button {
     background-color: $contrast;
     width: 150px;
+    height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
