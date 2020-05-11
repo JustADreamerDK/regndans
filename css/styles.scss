@@ -230,9 +230,7 @@ nav{
     }
     .enkelt_admin--add_wrapper {
         display:flex;
-        &:last-child{
-            justify-content: flex-end;
-        }
+        justify-content: space-between;
         .enkelt_admin--button_wrapper {
             display: flex;
             .button__add {
