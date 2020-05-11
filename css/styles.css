@@ -37,6 +37,11 @@ a:hover {
   margin: 50px;
 }
 
+.left {
+  width: 20%;
+  min-width: 200px;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,8 +50,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0px 4%;
-  width: 200px;
+  padding: 0px 50px;
 }
 
 nav ul li {
@@ -59,43 +63,44 @@ nav ul li a {
 }
 
 .logo {
-  width: 200px;
-  margin: 40px 4%;
+  width: 60%;
+  min-width: 100px;
+  margin: 30px 0px;
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 73.5vh;
+  min-height: 79.5vh;
 }
 
 .trin1 {
   background-color: #9fc5e8;
   color: black;
-  width: 100%;
+  width: 80%;
 }
 
 .trin2 {
   background-color: #d5a6bd;
   color: black;
-  width: 100%;
+  width: 80%;
 }
 
 .trin3 {
   background-color: #b6d7a8;
   color: black;
-  width: 100%;
+  width: 80%;
 }
 
 .trin4 {
   background-color: #f9cb9c;
   color: black;
-  width: 100%;
+  width: 80%;
 }
 
 .indhold {
@@ -309,7 +314,7 @@ nav ul li a {
   margin: 5px;
   padding: 10px;
   cursor: pointer;
-  width: 240px;
+  width: 230px;
 }
 
 .indhold .board__input textarea {
@@ -320,6 +325,27 @@ nav ul li a {
 
 .indhold .board__input .billede {
   width: 100%;
+}
+
+.indhold .enkelt_admin--add_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.indhold .enkelt_admin--add_wrapper:last-child {
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.indhold .enkelt_admin--add_wrapper .enkelt_admin--button_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.indhold .enkelt_admin--add_wrapper .enkelt_admin--button_wrapper .button__add {
+  margin-right: 10px;
 }
 
 .flex {
@@ -399,4 +425,8 @@ input[type="submit"] {
   width: 200px;
 }
 
+input[type="submit"]:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
 /*# sourceMappingURL=styles.css.map */

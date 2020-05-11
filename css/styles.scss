@@ -22,12 +22,15 @@ a{
 .login-logo{
     margin: 50px;
 }
+.left{
+    width: 20%;
+    min-width: 200px;
+}
 
 nav{
     display: flex;
     flex-direction: column;
-    margin: 0px 4%;
-    width: 200px;
+    padding: 0px 50px;
     ul{
         li{
             margin: 0px 0px 30px 0px;
@@ -39,35 +42,36 @@ nav{
     }
 }
 .logo{
-    width: 200px;
-    margin: 40px 4%;
+    width: 60%;
+    min-width: 100px;
+    margin: 30px 0px;
 }
 .container{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
-    min-height: 73.5vh;
+    min-height: 79.5vh;
 }
 
 .trin1{
     background-color: $step-one;
     color: black;
-    width: 100%;
+    width: 80%;
 }
 .trin2{
     background-color: $step-two;
     color: black;
-    width: 100%;
+    width: 80%;
 }
 .trin3{
     background-color: $step-three;
     color: black;
-    width: 100%;
+    width: 80%;
 }
 .trin4{
     background-color: $step-four;
     color: black;
-    width: 100%;
+    width: 80%;
 }
 
 .indhold{
@@ -213,7 +217,7 @@ nav{
             margin: 5px;
             padding: 10px;
             cursor: pointer;
-            width: 240px;
+            width: 230px;
         }
         textarea{
             width: 97%;
