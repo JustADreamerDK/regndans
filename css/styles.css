@@ -117,6 +117,7 @@ nav ul li a {
 .indhold .button__add {
   background-color: #029EA7;
   width: 150px;
+  height: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -334,8 +335,9 @@ nav ul li a {
 }
 
 .indhold .enkelt_admin--add_wrapper:last-child {
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .indhold .enkelt_admin--add_wrapper .enkelt_admin--button_wrapper {
