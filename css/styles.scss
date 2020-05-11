@@ -224,6 +224,19 @@ nav{
             width: 100%;
         }
     }
+    .enkelt_admin--add_wrapper {
+        display:flex;
+        &:last-child{
+            align-content: flex-end;
+        }
+        .enkelt_admin--button_wrapper {
+            display: flex;
+            .button__add {
+                margin-right: 10px;
+            }
+        }
+
+    } 
 }
 
 //Flex
