@@ -393,8 +393,4 @@ input[type="submit"] {
   width: 200px;
 }
 
-input[type="submit"]:hover {
-  cursor: pointer;
-  font-weight: bold;
-}
 /*# sourceMappingURL=styles.css.map */
