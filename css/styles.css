@@ -46,6 +46,7 @@ nav {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0px 4%;
+  width: 200px;
 }
 
 nav ul li {
@@ -71,10 +72,6 @@ nav ul li a {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 73.5vh;
-}
-
-.fill {
-  padding: 95px;
 }
 
 .trin1 {
@@ -281,6 +278,7 @@ nav ul li a {
   border-radius: 10px;
   margin: 5px;
   padding: 5px;
+  min-width: 5%;
 }
 
 .indhold .board__input input[type=text] {
@@ -310,8 +308,8 @@ nav ul li a {
   border-radius: 10px;
   margin: 5px;
   padding: 10px;
-  min-width: 10%;
   cursor: pointer;
+  width: 240px;
 }
 
 .indhold .board__input textarea {
@@ -369,6 +367,14 @@ nav ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 input[type="text"], input[type="password"], input[type="email"] {

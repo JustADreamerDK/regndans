@@ -12,7 +12,7 @@
 <body>
     <div class="flex">
         <img class="logo" src="../img/logo.png">
-        <div class="trin2 fill"></div>
+        <div class="trin2"></div>
     </div>
     <div class="flex">
         <nav>
@@ -30,9 +30,9 @@
                     <div class="board__input">
                         <h3>3.1 VÆLG 6 KORT</h3>
                         <p>Gennemgå alle teknologierne og vælg 6 kort som kan løse problemet.</p>
-                        <div class="flex">
+                        <div class="flex-wrap">
                         <div class="card">
-                            <div class="card__forside">
+                            <div class="card__forside" id="card__forside1">
                                 <h5>
                                     Kan skabe
                                 </h5>
@@ -40,7 +40,7 @@
                                     Skriver / forbedrer / opsummerer tekst
                                 </h4>
                             </div>
-                            <div class="card__bagside">
+                            <div class="card__bagside" id="card__bagside1">
                                 <h5>
                                     Eksempler:
                                 </h5>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card__forside">
+                            <div class="card__forside" id="card__forside2">
                                 <h5>
                                     Uddrager information
                                 </h5>
@@ -66,7 +66,7 @@
                                     Viser den mest relevante information og data ud fra big data
                                 </h4>
                             </div>
-                            <div class="card__bagside">
+                            <div class="card__bagside" id="card__bagside2">
                                 <h5>
                                     Eksempler:
                                 </h5>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card__forside">
+                            <div class="card__forside" id="card__forside3">
                                 <h5>
                                     Forudsiger og udvælger
                                 </h5>
@@ -89,7 +89,7 @@
                                     Forudsiger resultater
                                 </h4>
                             </div>
-                            <div class="card__bagside">
+                            <div class="card__bagside" id="card__bagside3">
                                 <h5>
                                     Eksempler:
                                 </h5>
@@ -107,7 +107,7 @@
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card__forside">
+                            <div class="card__forside" id="card__forside4">
                                 <h5>
                                     Automatiserer opgaver
                                 </h5>
@@ -115,7 +115,7 @@
                                     Chatbots som reagerer på tekst eller stemme
                                 </h4>
                             </div>
-                            <div class="card__bagside">
+                            <div class="card__bagside" id="card__bagside4">
                                 <h5>
                                     Eksempler:
                                 </h5>
@@ -133,7 +133,7 @@
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card__forside">
+                            <div class="card__forside" id="card__forside5">
                                 <h5>
                                     Handler selvstændigt
                                 </h5>
@@ -141,7 +141,7 @@
                                     Lærer uafhængigt - systemet behøver bare regler
                                 </h4>
                             </div>
-                            <div class="card__bagside">
+                            <div class="card__bagside" id="card__bagside5">
                                 <h5>
                                     Eksempler:
                                 </h5>
@@ -156,7 +156,7 @@
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card__forside">
+                            <div class="card__forside" id="card__forside6">
                                 <h5>
                                     Andre teknologier
                                 </h5>
@@ -164,7 +164,7 @@
                                     3D print
                                 </h4>
                             </div>
-                            <div class="card__bagside">
+                            <div class="card__bagside" id="card__bagside6">
                                 <h5>
                                     Eksempler:
                                 </h5>
@@ -190,7 +190,7 @@
                             <h3>4.2 UDVALGTE TEKNOLOGIER</h3>
                             <div class="flex">
                                 <div class="card">
-                                    <div class="card__forside">
+                                    <div class="card__forside" id="card__forside7">
                                         <h5>
                                             Automatiserer opgaver
                                         </h5>
@@ -198,7 +198,7 @@
                                             Chatbots som reagerer på tekst eller stemme
                                         </h4>
                                     </div>
-                                    <div class="card__bagside">
+                                    <div class="card__bagside" id="card__bagside7">
                                         <h5>
                                             Eksempler:
                                         </h5>
@@ -216,7 +216,7 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card__forside">
+                                    <div class="card__forside" id="card__forside8">
                                         <h5>
                                             Handler selvstændigt
                                         </h5>
@@ -224,7 +224,7 @@
                                             Lærer uafhængigt - systemet behøver bare regler
                                         </h4>
                                     </div>
-                                    <div class="card__bagside">
+                                    <div class="card__bagside" id="card__bagside8">
                                         <h5>
                                             Eksempler:
                                         </h5>
@@ -239,7 +239,7 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card__forside">
+                                    <div class="card__forside" id="card__forside9">
                                         <h5>
                                             Uddrager information
                                         </h5>
@@ -247,7 +247,7 @@
                                             Viser den mest relevante information og data ud fra big data
                                         </h4>
                                     </div>
-                                    <div class="card__bagside">
+                                    <div class="card__bagside" id="card__bagside9">
                                         <h5>
                                             Eksempler:
                                         </h5>
@@ -288,5 +288,6 @@
             </div>
         </div>
     </div>
+    <script src="../js/card.js"></script>
 </body>
 </html>

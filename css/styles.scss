@@ -27,6 +27,7 @@ nav{
     display: flex;
     flex-direction: column;
     margin: 0px 4%;
+    width: 200px;
     ul{
         li{
             margin: 0px 0px 30px 0px;
@@ -47,9 +48,7 @@ nav{
     justify-content: center;
     min-height: 73.5vh;
 }
-.fill{
-    padding: 95px;
-}
+
 .trin1{
     background-color: $step-one;
     color: black;
@@ -191,6 +190,7 @@ nav{
         border-radius: 10px;
         margin: 5px;
         padding: 5px;
+        min-width: 5%;
         input[type=text]{
             border: 1px solid $contrast;
             width: 90%;
@@ -212,8 +212,8 @@ nav{
             border-radius: 10px;
             margin: 5px;
             padding: 10px;
-            min-width: 10%;
             cursor: pointer;
+            width: 240px;
         }
         textarea{
             width: 97%;
@@ -249,6 +249,10 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 //Inputs
