@@ -1,7 +1,7 @@
 var card = {
     template: `
    <div class="card">
-   <div class="card__forside" id="card__forside[i]">
+   <div class="card__forside" id="card__forside1">
        <h5>
            {{ teknologi }}
        </h5>
@@ -9,7 +9,7 @@ var card = {
            {{ forklaring }}
        </h4>
    </div>
-   <div class="card__bagside" id="card__bagside[i]">
+   <div class="card__bagside" id="card__bagside1">
        <h5>
            Eksempler:
        </h5>

@@ -225,10 +225,6 @@ nav ul li a {
   cursor: pointer;
 }
 
-.indhold .faq__button:first-child {
-  border-radius: 10px 10px 0px 0px;
-}
-
 .indhold .faq__button--luk {
   background-color: #029EA7;
   display: -webkit-box;
@@ -240,7 +236,6 @@ nav ul li a {
   padding: 0px 10px;
   width: 98%;
   display: none;
-  border-radius: 10px 10px 0px 0px;
 }
 
 .indhold .faq__button--luk:hover {
@@ -249,14 +244,10 @@ nav ul li a {
 
 .indhold .faq__answer {
   background-color: #F4F4F4;
-  padding: 0px 10px;
+  padding: 10px 10px;
   width: 98%;
   color: black;
   display: none;
-}
-
-.indhold .faq__answer:last-child {
-  border-radius: 0px 0px 10px 10px;
 }
 
 .indhold form .checkbox {
@@ -332,12 +323,9 @@ nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.indhold .enkelt_admin--add_wrapper:last-child {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .indhold .enkelt_admin--add_wrapper .enkelt_admin--button_wrapper {
