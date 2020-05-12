@@ -332,12 +332,9 @@ nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.indhold .enkelt_admin--add_wrapper:last-child {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .indhold .enkelt_admin--add_wrapper .enkelt_admin--button_wrapper {
