@@ -1,37 +1,35 @@
-var card = {
-    template: `
-   <div class="card">
-   <div class="card__forside" id="card__forside1">
-       <h5>
-           {{ teknologi }}
-       </h5>
-       <h4>
-           {{ forklaring }}
-       </h4>
-   </div>
-   <div class="card__bagside" id="card__bagside1">
-       <h5>
-           Eksempler:
-       </h5>
-       <ol>
-           <li>
-               {{ eksempel }}
-           </li>
-       </ol>
-   </div>
-  </div>
-  `,
-    data: function() {
-      return {
-        teknologi: 'info@mycompany.com',
-        forklaring: 'lalala',
-        eksempel: 'loemfnkdsl fjsdkl fsjk lfs'
-      }
-    },
-  };
-  new Vue({
-    el: '#app',
-    components: {
-      'card': card
-    }
-  })
+var opretAdmin = {
+  template: `
+ <div class="opret_admin--wrapper">
+                    <div>
+                        
+                        <form action="Index.html" method="GET">                         
+                            <div class="flex-column">
+                                <label for="brugernavn">Admin navn</label>
+                                <input type="text" name="brugernavn">
+                            </div>
+                            <div class="flex-column">
+                                <label for="email">Admin e-mail</label>
+                                <input type="email" name="email">
+                            </div>
+
+                            <div class="flex-column">
+                                <label for="Projektnavn">Projektnavn</label>
+                                <input type="text" name="Projektnavn">
+                            </div>
+                        
+                            <div class="flex opret_admin--opret_button">
+                                <input type="submit" value="Opret admin">
+                            </div>
+                        </form>
+                                       
+                    </div>
+                </div>
+`,
+};
+new Vue({
+  el: '#app',
+  components: {
+    'opret-admin': opretAdmin
+  }
+})
