@@ -91,7 +91,7 @@ var trin4 = {
                           <p>
                               Navngiv og beskriv løsningen i en sætning.
                           </p>
-                          <textarea rows="6" class="100"></textarea>
+                          <textarea rows="6"></textarea>
                       </div>
                   <div class="flex-end">
                       <input type="submit" value="Næste">

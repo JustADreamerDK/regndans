@@ -278,27 +278,27 @@ nav ul li a {
   min-width: 5%;
 }
 
-.indhold .board__input input[type=text] {
+.indhold input[type=text] {
   border: 1px solid #029EA7;
   width: 90%;
 }
 
-.indhold .board__input .flex {
+.indhold .flex {
   margin: 10px 0px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.indhold .board__input .flex input[type="file"] {
+.indhold .flex input[type="file"] {
   width: 40%;
 }
 
-.indhold .board__input .card__bagside {
+.indhold .card__bagside {
   display: none;
 }
 
-.indhold .board__input .card {
+.indhold .card {
   border: 1px solid #029EA7;
   background-color: #F4F4F4;
   color: black;
@@ -309,17 +309,18 @@ nav ul li a {
   width: 230px;
 }
 
-.indhold .board__input textarea {
-  width: 97%;
+.indhold textarea {
+  min-width: 90%;
+  max-width: 97%;
   padding: 10px;
   border-radius: 10px;
 }
 
-.indhold .board__input .billede {
+.indhold .billede {
   width: 100%;
 }
 
-.indhold .enkelt_admin--add_wrapper {
+.enkelt_admin--add_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -328,13 +329,13 @@ nav ul li a {
           justify-content: space-between;
 }
 
-.indhold .enkelt_admin--add_wrapper .enkelt_admin--button_wrapper {
+.enkelt_admin--add_wrapper .enkelt_admin--button_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.indhold .enkelt_admin--add_wrapper .enkelt_admin--button_wrapper .button__add {
+.enkelt_admin--add_wrapper .enkelt_admin--button_wrapper .button__add {
   margin-right: 10px;
 }
 

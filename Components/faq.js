@@ -19,7 +19,7 @@ var faq = {
     },
   };
   new Vue({
-    el: '#app',
+    el: '#faq',
     components: {
       'faq': faq
     }

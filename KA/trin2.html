@@ -18,7 +18,7 @@
     </div>
     <div class="flex" id="app">
             <navi></navi>
-        <div class="container trin2">
+        <div class="container trin2" id="card">
             <div class="indhold">
                 <form action="Index.html" method="GET">
                     
@@ -26,32 +26,7 @@
                         <h3>3.1 VÆLG 6 KORT</h3>
                         <p>Gennemgå alle teknologierne og vælg 6 kort som kan løse problemet.</p>
                         <div class="flex-wrap">
-                        <div class="card">
-                            <div class="card__forside" id="card__forside1">
-                                <h5>
-                                    Kan skabe
-                                </h5>
-                                <h4>
-                                    Skriver / forbedrer / opsummerer tekst
-                                </h4>
-                            </div>
-                            <div class="card__bagside" id="card__bagside1">
-                                <h5>
-                                    Eksempler:
-                                </h5>
-                                <ol>
-                                    <li>
-                                        Systemer, der kan lave et resume af en tekst.
-                                    </li>
-                                    <li>
-                                        Systemer, der kan bruges til sportsjournalistisk og til at lave nyhedsartikler i forbindelse med sportsbegivenheder baseret på data.
-                                    </li>
-                                    <li>
-                                        Systemer, der kan omformulere ekspempelvis kontrakter til et leforståeligt sprog. 
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
+                            <card></card>
                         <div class="card">
                             <div class="card__forside" id="card__forside2">
                                 <h5>
@@ -285,6 +260,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="../Components/admin_menu.js"></script>
+    <script src="../Components/card.js"></script>
     <script src="../js/card.js"></script>
 </body>
 </html>

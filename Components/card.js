@@ -13,24 +13,24 @@ var card = {
        <h5>
            Eksempler:
        </h5>
-       <ol>
+       <ul>
            <li>
                {{ eksempel }}
            </li>
-       </ol>
+       </ul>
    </div>
   </div>
   `,
     data: function() {
       return {
-        teknologi: 'info@mycompany.com',
-        forklaring: 'lalala',
-        eksempel: 'loemfnkdsl fjsdkl fsjk lfs'
+        teknologi: 'Forstår lyd',
+        forklaring: 'Kan gennemføre meningsfyldt kommunikation gennem samtale eller tekst',
+        eksempel: 'Chat bots som Siri, Alexa og Google home. En mere avanceret version er veninden Hikari, som laver billeder på en lille skærm. Systemet benytter mikrofoner og kameraer. Sensorer registrerer temperatur og bevægelse, hvilket gør en mere personlig interaktion mulig.'
       }
     },
   };
   new Vue({
-    el: '#app',
+    el: '#card',
     components: {
       'card': card
     }

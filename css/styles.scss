@@ -188,6 +188,7 @@ nav{
         margin: 5px;
         padding: 5px;
         min-width: 5%;
+        }
         input[type=text]{
             border: 1px solid $contrast;
             width: 90%;
@@ -213,7 +214,8 @@ nav{
             width: 230px;
         }
         textarea{
-            width: 97%;
+            min-width: 90%;
+            max-width: 97%;
             padding: 10px;
             border-radius: 10px;
         }
@@ -232,7 +234,6 @@ nav{
         }
 
     } 
-}
 
 //Flex
 .flex{
