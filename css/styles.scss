@@ -132,8 +132,12 @@ nav{
     }
     .table__pagination{
         align-self: flex-end;
-        li{
-            margin: 2px;
+        button{
+            background: none;
+            border: 0px;
+            color: $secondary-color;
+            cursor: pointer;
+            font-size: 20px;
         }
     }
     .faq__button{

@@ -205,8 +205,12 @@ nav ul li a {
       align-self: flex-end;
 }
 
-.indhold .table__pagination li {
-  margin: 2px;
+.indhold .table__pagination button {
+  background: none;
+  border: 0px;
+  color: #F4F4F4;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .indhold .faq__button {

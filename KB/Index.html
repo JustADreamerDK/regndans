@@ -21,52 +21,29 @@
             <navi></navi>
         </div>
         <div class="container">
-            <div class="indhold">
+            <div id="table" class="indhold">
                 <table>
-                    <tr class="table__row--red">
-                        <td><a href="trin1.html">Lad os lave en hjemmeside</a></td>
-                        <td><h4>34</h4></td>
-                    </tr>
-                    <tr class="table__row--blue">
-                        <td><a href="trin1.html">En ny app</a></td>
-                        <td><h4>2</h4></td>
-                    </tr>
-                    <tr class="table__row--pink">
-                        <td><a href="trin2.html">Sitetech opfinder</a></td>
-                        <td><h4>12</h4></td>
-                    </tr>
-                    <tr class="table__row--blue">
-                        <td><a href="trin1.html">Blomsterfestival</a></td>
-                        <td><h4>5</h4></td>
-                    </tr>
-                    <tr class="table__row--red">
-                        <td><a href="trin1.html">Strik din egen hue</a></td>
-                        <td><h4>61</h4></td>
-                    </tr>
-                    <tr class="table__row--green">
-                        <td><a href="trin3.html">The Voice</a></td>
-                        <td><h4>13</h4></td>
-                    </tr>
-                    <tr class="table__row--yellow">
-                        <td><a href="trin4.html">Vejrapp</a></td>
-                        <td><h4>32</h4></td>
+                    <tr v-for="board in sortedBoards" v-bind:class="{ 'table__row--red': board.red, 'table__row--blue': board.blue, 'table__row--pink': board.pink, 'table__row--green': board.green, 'table__row--yellow': board.yellow }">
+                      <td>
+                        <a v-if="board.blue == 'blue'" href="trin1.html">{{board.name}}</a>
+                        <a v-else-if="board.pink == 'pink'" href="trin2.html">{{board.name}}</a>
+                        <a v-else-if="board.green == 'green'" href="trin3.html">{{board.name}}</a>
+                        <a v-else-if="board.yellow == 'yellow'" href="trin4.html">{{board.name}}</a>
+                        <a v-else href="trin1.html">{{board.name}}</a>
+                    </td>
+                      <td><h4>{{board.amount}}</h4></td>
                     </tr>
                 </table>
-            <div class="table__pagination">
-                <ul class="flex">
-                    <li>◄</li>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>►</li>
-                </ul>
-            </div>
-            </div>
+
+                <div class="table__pagination">
+                    <button @click="prevPage">◄</button> 
+                    <button @click="nextPage">►</button>
+                </div>
+              </div>
         </div>
     </div>
     <script src="https://unpkg.com/vue"></script>
     <script src="../Components/kunde_menu.js"></script>
+    <script src="../Components/tabel_pagination.js"></script>
 </body>
 </html>

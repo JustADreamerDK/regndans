@@ -4,7 +4,7 @@ var faq = {
                   <h3></h3><h3>{{ sporgsmaal }}</h3><h3>▼</h3>
               </div>
               <div class="faq__button--luk" id="faq__button--luk1">
-                  <h3></h3><h3>{{ sporgsmaal }}</h3><h3>▼</h3>
+                  <h3></h3><h3>{{ sporgsmaal }}</h3><h3>▲</h3>
               </div>
               <div class="faq__answer" id="faq__answer1">
                   <p>{{ svar }}</p>
