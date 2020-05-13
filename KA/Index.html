@@ -22,6 +22,7 @@
         </div>
         <div class="container">
             <div id="table" class="indhold">
+                <a href="opret_board.html" class="button__add">Opret board</a>
                 <table>
                     <tr v-for="board in sortedBoards" v-bind:class="{ 'table__row--red': board.red, 'table__row--blue': board.blue, 'table__row--pink': board.pink, 'table__row--green': board.green, 'table__row--yellow': board.yellow }">
                       <td>

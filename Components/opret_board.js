@@ -39,7 +39,7 @@ var opretBoard = {
   `,
   };
   new Vue({
-    el: '#app',
+    el: '#opretBoard',
     components: {
       'opret-board': opretBoard
     }
