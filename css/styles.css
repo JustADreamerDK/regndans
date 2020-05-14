@@ -333,7 +333,7 @@ nav ul li a {
           justify-content: space-between;
 }
 
-.indhold .enkelt_admin--add_wrapper .enkelt_admin--button_wrapper {
+.enkelt_admin--add_wrapper .enkelt_admin--button_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
